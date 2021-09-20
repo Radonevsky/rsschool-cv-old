@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="/css/theme.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Ivan Radonevsky</title>
 </head>
 
@@ -48,6 +50,27 @@
                     <a href="https://t.me/rdnsky">@rdnsky</a>
                 </li>
             </ul>
+        </section>
+
+        <section class="samples">
+            <h2 class="samples__title subtitle dark">Samples of my work</h2>
+            <div class="samples__works">
+                <div class="samples__item">
+                    <a href="https://radonevsky.github.io/flowers/" target="_blank">
+                        <img src="img/sample_flowers_page.png" alt="Flowers page">
+                        <p class="sample__name">Flower</p>
+                        <p>Landing page in HTML, CSS</p>
+                    </a>
+                </div>
+                <div class="samples__item">
+                    <a href="https://radonevsky.github.io/Logistic/" target="_blank">
+                        <img src="img/sample_logistic_landing.png" alt="Logistic page">
+                        <p class="sample__name">Trans &amp; Logistic</p>
+                        <p>Landing page in HTML, CSS</p>
+                        <p>Basic JS, jquery, slick-slider</p>
+                    </a>
+                </div>
+            </div>
         </section>
 
         <section class="experience white">
@@ -173,17 +196,23 @@
             </ul>
         </section>
 
+        <section class="english">
+            <h2 class="english__title subtitle yellow">English level</h2>
+            <img src="img/english.svg" alt="">
+            <p class="english__a">A2</p>
+        </section>
+
         <section class="code-example">
             <h2 class="code-example__title subtitle">Code example</h2>
-            <pre>
-            <code>
-                const noSpace = x => {
-                    let xWithoutSpace = '';
-                    for (i = 0; i &lt; x.length; i++) {
-                        if (x[i] != ' ') xWithoutSpace += x[i];
-                    }
-                     return xWithoutSpace;
-                }
+            <pre class="code-example__code">
+            <code data-language="javascript">
+const noSpace = x => {
+    let xWithoutSpace = '';
+    for (i = 0; i &lt; x.length; i++) {
+        if (x[i] != ' ') xWithoutSpace += x[i];
+    }
+     return xWithoutSpace;
+}
             </code>
         </pre>
         </section>
@@ -197,8 +226,9 @@
         <a href="https://rs.school/js/">
             <img class="footer__rs" src="img/rs_school_js.svg" alt="RS school logo">
         </a>
-        <time class="subtitle" datetime="2021">Created in 2021</time>
+        <time class="footer__year subtitle" datetime="2021">Created in 2021</time>
     </footer>
 </div>
+<script src="js/rainbow-custom.min.js"></script>
 </body>
 </html>
