@@ -6,16 +6,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link href="/css/theme.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>Ivan Radonevsky</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 
 <body>
 <div class="container">
     <header class="header">
-        <img class="header__photo" src="img/profile-photo.jpg" alt="Profile photo by Ivan Radonevsky">
+        <img class="header__photo" src="src/img/profile-photo.jpg" alt="Profile photo by Ivan Radonevsky">
         <div class="header__main-ifo">
             <h1 class="header__title">Ivan Radonevsky</h1>
             <h2 class="header__profession subtitle yellow">FrontEnd Developer</h2>
@@ -57,14 +54,14 @@
             <div class="samples__works">
                 <div class="samples__item">
                     <a href="https://radonevsky.github.io/flowers/" target="_blank">
-                        <img src="img/sample_flowers_page.png" alt="Flowers page">
+                        <img src="src/img/sample_flowers_page.png" alt="Flowers page">
                         <p class="sample__name">Flower</p>
                         <p>Landing page in HTML, CSS</p>
                     </a>
                 </div>
                 <div class="samples__item">
                     <a href="https://radonevsky.github.io/Logistic/" target="_blank">
-                        <img src="img/sample_logistic_landing.png" alt="Logistic page">
+                        <img src="src/img/sample_logistic_landing.png" alt="Logistic page">
                         <p class="sample__name">Trans &amp; Logistic</p>
                         <p>Landing page in HTML, CSS</p>
                         <p>Basic JS, jquery, slick-slider</p>
@@ -198,7 +195,7 @@
 
         <section class="english">
             <h2 class="english__title subtitle yellow">English level</h2>
-            <img src="img/english.svg" alt="">
+            <img src="src/img/english.svg" alt="">
             <p class="english__a">A2</p>
         </section>
 
@@ -220,15 +217,15 @@ const noSpace = x => {
 
     <footer class="footer">
         <a href="https://github.com/Radonevsky">
-            <img class="footer__octocat" src="img/Octocat.png" alt="Github">
-            <img class="footer__github" src="img/GitHub_Logo.png" alt="Github logo">
+            <img class="footer__octocat" src="src/img/Octocat.png" alt="Github">
+            <img class="footer__github" src="src/img/GitHub_Logo.png" alt="Github logo">
         </a>
         <a href="https://rs.school/js/">
-            <img class="footer__rs" src="img/rs_school_js.svg" alt="RS school logo">
+            <img class="footer__rs" src="src/img/rs_school_js.svg" alt="RS school logo">
         </a>
         <time class="footer__year subtitle" datetime="2021">Created in 2021</time>
     </footer>
 </div>
-<script src="js/rainbow-custom.min.js"></script>
+<script src="src/js/rainbow-custom.min.js"></script>
 </body>
 </html>
