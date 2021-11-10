@@ -3,7 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
-let conf = {
+let isProd = process.env.NODE_ENV === "production";
+
+module.exports = {
     entry: {
         index: './src/index.js',
     },
@@ -13,6 +15,7 @@ let conf = {
         assetModuleFilename: 'src/img/[name][ext]',
         clean: true,
     },
+    devtool: isProd ? 'source-map' : 'eval-source-map',
     module: {
         rules: [
             {
@@ -22,13 +25,15 @@ let conf = {
             },
             {
                 test: /\.css$/i,
-                use: [MiniCssExtractPlugin.loader, "css-loader"],
+                use: [
+                    isProd ? MiniCssExtractPlugin.loader : "style-loader",
+                    "css-loader",
+                ],
             },
             {
                 test: /\.s[ac]ss$/i,
                 use: [
-                    "style-loader",
-                    MiniCssExtractPlugin.loader,
+                    isProd ? MiniCssExtractPlugin.loader : "style-loader",
                     "css-loader",
                     "sass-loader",
                 ],
@@ -57,11 +62,3 @@ let conf = {
         new MiniCssExtractPlugin(),
     ],
 };
-
-module.exports = (env, options) => {
-    let production = options.mode === 'production';
-
-    conf.devtool = production ? 'source-map': 'eval-source-map';
-
-    return conf;
-}

@@ -1,6 +1,237 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ 183:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(537);
+/* harmony import */ var _css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(645);
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "/**\n * prism.js default theme for JavaScript, CSS and HTML\n * Based on dabblet (http://dabblet.com)\n * @author Lea Verou\n */\n\ncode[class*=\"language-\"],\npre[class*=\"language-\"] {\n\tcolor: black;\n\tbackground: none;\n\ttext-shadow: 0 1px white;\n\tfont-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;\n\tfont-size: 1em;\n\ttext-align: left;\n\twhite-space: pre;\n\tword-spacing: normal;\n\tword-break: normal;\n\tword-wrap: normal;\n\tline-height: 1.5;\n\n\t-moz-tab-size: 4;\n\t-o-tab-size: 4;\n\ttab-size: 4;\n\n\t-webkit-hyphens: none;\n\t-moz-hyphens: none;\n\t-ms-hyphens: none;\n\thyphens: none;\n}\n\npre[class*=\"language-\"]::-moz-selection, pre[class*=\"language-\"] ::-moz-selection,\ncode[class*=\"language-\"]::-moz-selection, code[class*=\"language-\"] ::-moz-selection {\n\ttext-shadow: none;\n\tbackground: #b3d4fc;\n}\n\npre[class*=\"language-\"]::selection, pre[class*=\"language-\"] ::selection,\ncode[class*=\"language-\"]::selection, code[class*=\"language-\"] ::selection {\n\ttext-shadow: none;\n\tbackground: #b3d4fc;\n}\n\n@media print {\n\tcode[class*=\"language-\"],\n\tpre[class*=\"language-\"] {\n\t\ttext-shadow: none;\n\t}\n}\n\n/* Code blocks */\npre[class*=\"language-\"] {\n\tpadding: 1em;\n\tmargin: .5em 0;\n\toverflow: auto;\n}\n\n:not(pre) > code[class*=\"language-\"],\npre[class*=\"language-\"] {\n\tbackground: #f5f2f0;\n}\n\n/* Inline code */\n:not(pre) > code[class*=\"language-\"] {\n\tpadding: .1em;\n\tborder-radius: .3em;\n\twhite-space: normal;\n}\n\n.token.comment,\n.token.prolog,\n.token.doctype,\n.token.cdata {\n\tcolor: slategray;\n}\n\n.token.punctuation {\n\tcolor: #999;\n}\n\n.token.namespace {\n\topacity: .7;\n}\n\n.token.property,\n.token.tag,\n.token.boolean,\n.token.number,\n.token.constant,\n.token.symbol,\n.token.deleted {\n\tcolor: #905;\n}\n\n.token.selector,\n.token.attr-name,\n.token.string,\n.token.char,\n.token.builtin,\n.token.inserted {\n\tcolor: #690;\n}\n\n.token.operator,\n.token.entity,\n.token.url,\n.language-css .token.string,\n.style .token.string {\n\tcolor: #9a6e3a;\n\t/* This background color was intended by the author of this theme. */\n\tbackground: hsla(0, 0%, 100%, .5);\n}\n\n.token.atrule,\n.token.attr-value,\n.token.keyword {\n\tcolor: #07a;\n}\n\n.token.function,\n.token.class-name {\n\tcolor: #DD4A68;\n}\n\n.token.regex,\n.token.important,\n.token.variable {\n\tcolor: #e90;\n}\n\n.token.important,\n.token.bold {\n\tfont-weight: bold;\n}\n.token.italic {\n\tfont-style: italic;\n}\n\n.token.entity {\n\tcursor: help;\n}\n", "",{"version":3,"sources":["webpack://./node_modules/prismjs/themes/prism.css"],"names":[],"mappings":"AAAA;;;;EAIE;;AAEF;;CAEC,YAAY;CACZ,gBAAgB;CAChB,wBAAwB;CACxB,sEAAsE;CACtE,cAAc;CACd,gBAAgB;CAChB,gBAAgB;CAChB,oBAAoB;CACpB,kBAAkB;CAClB,iBAAiB;CACjB,gBAAgB;;CAEhB,gBAAgB;CAChB,cAAc;CACd,WAAW;;CAEX,qBAAqB;CACrB,kBAAkB;CAClB,iBAAiB;CACjB,aAAa;AACd;;AAEA;;CAEC,iBAAiB;CACjB,mBAAmB;AACpB;;AAEA;;CAEC,iBAAiB;CACjB,mBAAmB;AACpB;;AAEA;CACC;;EAEC,iBAAiB;CAClB;AACD;;AAEA,gBAAgB;AAChB;CACC,YAAY;CACZ,cAAc;CACd,cAAc;AACf;;AAEA;;CAEC,mBAAmB;AACpB;;AAEA,gBAAgB;AAChB;CACC,aAAa;CACb,mBAAmB;CACnB,mBAAmB;AACpB;;AAEA;;;;CAIC,gBAAgB;AACjB;;AAEA;CACC,WAAW;AACZ;;AAEA;CACC,WAAW;AACZ;;AAEA;;;;;;;CAOC,WAAW;AACZ;;AAEA;;;;;;CAMC,WAAW;AACZ;;AAEA;;;;;CAKC,cAAc;CACd,oEAAoE;CACpE,iCAAiC;AAClC;;AAEA;;;CAGC,WAAW;AACZ;;AAEA;;CAEC,cAAc;AACf;;AAEA;;;CAGC,WAAW;AACZ;;AAEA;;CAEC,iBAAiB;AAClB;AACA;CACC,kBAAkB;AACnB;;AAEA;CACC,YAAY;AACb","sourcesContent":["/**\n * prism.js default theme for JavaScript, CSS and HTML\n * Based on dabblet (http://dabblet.com)\n * @author Lea Verou\n */\n\ncode[class*=\"language-\"],\npre[class*=\"language-\"] {\n\tcolor: black;\n\tbackground: none;\n\ttext-shadow: 0 1px white;\n\tfont-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;\n\tfont-size: 1em;\n\ttext-align: left;\n\twhite-space: pre;\n\tword-spacing: normal;\n\tword-break: normal;\n\tword-wrap: normal;\n\tline-height: 1.5;\n\n\t-moz-tab-size: 4;\n\t-o-tab-size: 4;\n\ttab-size: 4;\n\n\t-webkit-hyphens: none;\n\t-moz-hyphens: none;\n\t-ms-hyphens: none;\n\thyphens: none;\n}\n\npre[class*=\"language-\"]::-moz-selection, pre[class*=\"language-\"] ::-moz-selection,\ncode[class*=\"language-\"]::-moz-selection, code[class*=\"language-\"] ::-moz-selection {\n\ttext-shadow: none;\n\tbackground: #b3d4fc;\n}\n\npre[class*=\"language-\"]::selection, pre[class*=\"language-\"] ::selection,\ncode[class*=\"language-\"]::selection, code[class*=\"language-\"] ::selection {\n\ttext-shadow: none;\n\tbackground: #b3d4fc;\n}\n\n@media print {\n\tcode[class*=\"language-\"],\n\tpre[class*=\"language-\"] {\n\t\ttext-shadow: none;\n\t}\n}\n\n/* Code blocks */\npre[class*=\"language-\"] {\n\tpadding: 1em;\n\tmargin: .5em 0;\n\toverflow: auto;\n}\n\n:not(pre) > code[class*=\"language-\"],\npre[class*=\"language-\"] {\n\tbackground: #f5f2f0;\n}\n\n/* Inline code */\n:not(pre) > code[class*=\"language-\"] {\n\tpadding: .1em;\n\tborder-radius: .3em;\n\twhite-space: normal;\n}\n\n.token.comment,\n.token.prolog,\n.token.doctype,\n.token.cdata {\n\tcolor: slategray;\n}\n\n.token.punctuation {\n\tcolor: #999;\n}\n\n.token.namespace {\n\topacity: .7;\n}\n\n.token.property,\n.token.tag,\n.token.boolean,\n.token.number,\n.token.constant,\n.token.symbol,\n.token.deleted {\n\tcolor: #905;\n}\n\n.token.selector,\n.token.attr-name,\n.token.string,\n.token.char,\n.token.builtin,\n.token.inserted {\n\tcolor: #690;\n}\n\n.token.operator,\n.token.entity,\n.token.url,\n.language-css .token.string,\n.style .token.string {\n\tcolor: #9a6e3a;\n\t/* This background color was intended by the author of this theme. */\n\tbackground: hsla(0, 0%, 100%, .5);\n}\n\n.token.atrule,\n.token.attr-value,\n.token.keyword {\n\tcolor: #07a;\n}\n\n.token.function,\n.token.class-name {\n\tcolor: #DD4A68;\n}\n\n.token.regex,\n.token.important,\n.token.variable {\n\tcolor: #e90;\n}\n\n.token.important,\n.token.bold {\n\tfont-weight: bold;\n}\n.token.italic {\n\tfont-style: italic;\n}\n\n.token.entity {\n\tcursor: help;\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 958:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(537);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(645);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(667);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+// Imports
+
+
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(197), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(982), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(95), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(482), __webpack_require__.b);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "body{box-sizing:border-box;margin:0;padding:0;font-family:\"Roboto\",sans-serif;background-color:#b1a17d9e;font-size:14px;font-weight:400;color:#2a2a2a}.white{color:#fff}.yellow{color:#c7a523}.subtitle{grid-column:1;grid-row:2;margin:0;font-size:20px;line-height:1.2;letter-spacing:.2rem;font-weight:500;text-transform:uppercase}.container{max-width:900px;margin:0 auto;box-shadow:0 0 10px rgba(0,0,0,.5)}.header{display:grid;grid-template-columns:270px 1fr 1fr;gap:50px;background-color:#fff}.header__photo{box-sizing:border-box;grid-column:1;grid-row:1/3;object-fit:cover;width:100%;height:100%}.header__main-ifo{grid-column:2/4;padding:60px 0 0}.header__title{margin:0;font-family:\"Playfair Display\",serif;font-size:3rem;line-height:1;text-transform:uppercase;font-weight:700}.header__profession{margin-top:10px;padding:10px;text-align:start;background-color:#2a2a2a}.header__adress{margin-top:5px}.header__name-page{padding-top:30px;text-align:end;padding-right:20px;position:relative}.header__name-page:before{content:\"\";width:50px;height:14px;background-color:#fff;position:absolute;top:58px;left:86px}.header__background-bottom{grid-column:1/4;grid-row:2/3;background-color:rgba(210,160,35,.8)}.about-me__description{grid-column:2/4;grid-row:2/3;padding:10px 30px 10px 10px;line-height:1.5}.main{display:grid;grid-template-columns:270px 1fr 1fr;background-color:#fff}.section_subtitle{margin:0;font-family:\"Roboto\",sans-serif;font-size:16px;font-weight:500;text-transform:uppercase;letter-spacing:1px}.contacts{grid-column:1;padding:30px 20px 30px 0;background-color:#2a2a2a}.contacts__title{padding-bottom:5px;text-align:end;border-bottom:1px solid #c7a523;position:relative}.contacts__title:after{content:\"\";position:absolute;width:15%;height:5px;bottom:-2.5px;right:0;background-color:#c7a523}.contacts a{color:#fff;text-decoration:none}.contacts a:hover{color:#b1a17d9e}.contacts a:checked{color:#fff}.contacts__list{display:flex;flex-direction:column;margin:15px 0 0 0;padding:0;align-items:end;list-style:none;text-align:end}.contacts__list li:not(:nth-last-child(1)){margin-bottom:10px}.contacts__phone{padding-right:50px;background:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat 131px 50%}.contacts__email{padding-right:50px;background:url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") no-repeat 152px 50%}.contacts__git{padding-right:50px;background:url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") no-repeat 114px 50%}.contacts__tg{padding-right:50px;background:url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ") no-repeat 100px 50%}.experience{grid-column:1;background-color:#2a2a2a}.experience__title{padding:10px 20px;background-color:#c7a523;text-align:end}.experience__list{display:flex;flex-direction:column;text-align:end;margin:0;padding:0 20px 0 0;list-style:none}.experience__list li{margin-top:20px}.experience__list p{margin:0 0 10px 0}.education{grid-column:2/4;grid-row:2/4;padding-top:30px;padding-left:50px}.education a{color:#2a2a2a}.education__title,.samples__title{padding-bottom:5px;border-bottom:1px solid #2a2a2a;position:relative}.education__title:after,.samples__title:after{content:\"\";position:absolute;width:15%;height:5px;bottom:-2.5px;left:0;background-color:#2a2a2a}.education a:hover{color:#b1a17d9e}.education a:checked{color:#fff}.education__list{display:flex;flex-direction:column;margin:30px 0 0 0;padding:0 30px 0 0;list-style:none}.education__list p{margin:0}.education__list li{display:flex;justify-content:space-between;align-items:center}.education__list li:not(:last-child){margin-bottom:15px}.education__name{width:200px;min-width:200px;padding-top:20px;padding-bottom:15px;padding-right:20px;align-self:stretch;border-right:1px solid #2a2a2a}.education__name h3{border-bottom:1px solid #2a2a2a}.education__description{padding-left:10px;padding-bottom:10px;line-height:1.5em;justify-self:start;text-align:justify}.samples{grid-column:2/4;grid-row:1;padding-top:30px;padding-left:50px}.samples__works{display:flex;flex-wrap:wrap;justify-content:space-around;margin-top:30px;padding-right:30px}.samples__works img{max-width:200px;height:auto;margin-bottom:10px;border-radius:10px;box-shadow:-1px 1px 10px 2px rgba(42,42,42,.3);position:relative;top:0;left:0;transition:box-shadow .5s,top .5s,left .5s}.samples__works img:hover{cursor:pointer;top:-4px;left:4px;box-shadow:-4px 4px 12px 3px rgba(42,42,42,.3)}.samples__works img:active{cursor:pointer;top:0;left:0;box-shadow:-2px 2px 10px 2px rgba(199,165,35,.5);transition:none}.samples__works a{font-weight:500;text-decoration:none;color:#2a2a2a;text-align:center}.samples__works p{margin:5px 0;font-weight:400}.sample__name{text-transform:uppercase}.skills,.english{grid-column:1;padding:30px 20px 30px 0;background-color:#2a2a2a}.skills__title,.english__title{padding-bottom:5px;text-align:end;border-bottom:1px solid #c7a523;position:relative}.skills__title:after,.english__title:after{content:\"\";position:absolute;width:36px;height:5px;bottom:-2.5px;right:0;background-color:#c7a523}.skills__list{display:flex;flex-direction:column;margin:15px 0 0 0;padding:0 0 0 30px;align-items:stretch;list-style:none;text-align:end}.skills__list p{display:inline-block;margin:0 0 0 20px}.skills__list li{display:flex;justify-content:space-between;align-items:center}.skills__list li:not(:last-child){margin-bottom:20px}.skill-line{display:inline-block;box-sizing:border-box;padding:2px;width:100px;height:12px;background-color:#c7a523;margin-right:auto}.three-quarters-percent{width:75%;height:100%;background-color:#2a2a2a}.two-quarters-percent{width:50%;height:100%;background-color:#2a2a2a}.one-quarters-percent{width:25%;height:100%;background-color:#2a2a2a}.code-example{grid-column:2/4;margin-top:30px;padding-left:50px}.code-example__title{padding-bottom:5px;border-bottom:1px solid #2a2a2a;position:relative}.code-example__title:after{content:\"\";position:absolute;width:15%;height:5px;bottom:-2.5px;left:0;background-color:#2a2a2a}.english img{display:block;max-width:150px;height:auto;margin:0 auto}.english__a{text-align:center;color:#c7a523;margin:0 auto;font-size:3rem;font-family:\"Playfair Display\",serif;font-weight:700}.footer{display:grid;padding:30px;max-height:200px;grid-template-columns:1fr 1fr 1fr;background-color:#c7a523;align-items:center}.footer a{display:inline-block}.footer__octocat{max-width:100px;height:auto;justify-self:center}.footer__github{max-width:100px;height:auto;justify-self:center}.footer__rs{max-width:300px;height:auto}.footer time{grid-column:3;grid-row:1;justify-self:center}.code-example__code{margin-top:30px;margin-right:30px}.footer__year{margin-left:15px}", "",{"version":3,"sources":["webpack://./src/css/main.scss"],"names":[],"mappings":"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","sourcesContent":["\r\n\r\nbody {\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 0;\r\n\r\n    font-family: 'Roboto', sans-serif;\r\n    background-color: #b1a17d9e;\r\n    font-size: 14px;\r\n    font-weight: 400;\r\n    color: #2a2a2a;\r\n}\r\n\r\n.white {\r\n    color: #fff;\r\n}\r\n\r\n.yellow {\r\n    color: #c7a523;\r\n}\r\n\r\n.subtitle {\r\n    grid-column: 1;\r\n    grid-row: 2;\r\n    margin: 0;\r\n\r\n    font-size: 20px;\r\n    line-height: 1.2;\r\n    letter-spacing: .2rem;\r\n    font-weight: 500;\r\n    text-transform: uppercase;\r\n}\r\n\r\n.container {\r\n    max-width: 900px;\r\n    margin: 0 auto;\r\n\r\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) ;\r\n}\r\n\r\n.header {\r\n    display: grid;\r\n    grid-template-columns: 270px 1fr 1fr;\r\n    gap: 50px;\r\n    background-color: #fff;\r\n}\r\n\r\n.header__photo {\r\n    box-sizing: border-box;\r\n    grid-column: 1;\r\n    grid-row: 1 / 3 ;\r\n    object-fit: cover;\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\n.header__main-ifo {\r\n    grid-column: 2 / 4;\r\n    padding: 60px 0 0;\r\n}\r\n\r\n.header__title {\r\n    margin: 0;\r\n\r\n    font-family: 'Playfair Display', serif;\r\n    font-size: 3rem;\r\n    line-height: 1;\r\n    text-transform: uppercase;\r\n    font-weight: 700;\r\n}\r\n\r\n.header__profession {\r\n    margin-top: 10px;\r\n    padding: 10px;\r\n\r\n    text-align: start;\r\n    background-color: #2a2a2a;\r\n}\r\n\r\n.header__adress {\r\n    margin-top: 5px;\r\n}\r\n\r\n.header__name-page {\r\n    padding-top: 30px;\r\n    text-align: end;\r\n    padding-right: 20px;\r\n    position: relative;\r\n}\r\n\r\n.header__name-page:before {\r\n    content: \"\";\r\n    width: 50px;\r\n    height: 14px;\r\n    background-color: #fff;\r\n    position: absolute;\r\n    top: 58px;\r\n    left: 86px;\r\n}\r\n\r\n.header__background-bottom {\r\n    grid-column: 1 / 4;\r\n    grid-row: 2 / 3;\r\n\r\n    background-color: rgba(210, 160, 35, 0.8);\r\n}\r\n\r\n.about-me__description {\r\n    grid-column: 2/4;\r\n    grid-row: 2 / 3;\r\n    padding: 10px 30px 10px 10px;\r\n\r\n    line-height: 1.5;\r\n}\r\n\r\n.main {\r\n    display: grid;\r\n    grid-template-columns: 270px 1fr 1fr;\r\n\r\n    background-color: #fff;\r\n}\r\n\r\n.section_subtitle {\r\n    margin: 0;\r\n\r\n    font-family: 'Roboto', sans-serif;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1px;\r\n}\r\n\r\n.contacts {\r\n    grid-column: 1;\r\n    padding: 30px 20px 30px 0;\r\n\r\n    background-color: #2a2a2a;\r\n}\r\n\r\n.contacts__title {\r\n    padding-bottom: 5px;\r\n\r\n    text-align: end;\r\n    border-bottom: 1px solid #c7a523;\r\n\r\n    position: relative;\r\n}\r\n\r\n.contacts__title:after {\r\n    content: \"\";\r\n    position: absolute;\r\n    width: 15%;\r\n    height: 5px;\r\n    bottom: -2.5px;\r\n    right: 0;\r\n    background-color: #c7a523;\r\n}\r\n\r\n.contacts a {\r\n    color: #fff;\r\n    text-decoration: none;\r\n}\r\n\r\n.contacts a:hover {\r\n    color: #b1a17d9e;\r\n}\r\n\r\n.contacts a:checked {\r\n    color: #fff;\r\n}\r\n\r\n.contacts__list {\r\n    display: flex;\r\n    flex-direction: column;\r\n    margin: 15px 0 0 0;\r\n    padding: 0;\r\n    align-items: end;\r\n\r\n    list-style: none;\r\n    text-align: end;\r\n}\r\n\r\n.contacts__list li:not(:nth-last-child(1)) {\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.contacts__phone {\r\n    padding-right: 50px;\r\n    background: url(\"../img/phone.png\") no-repeat 131px 50%;\r\n\r\n}\r\n\r\n.contacts__email {\r\n    padding-right: 50px;\r\n    background: url(\"../img/mail.png\") no-repeat 152px 50%;\r\n\r\n}\r\n\r\n.contacts__git {\r\n    padding-right: 50px;\r\n    background: url(\"../img/git.png\") no-repeat 114px 50%;\r\n\r\n}\r\n\r\n.contacts__tg {\r\n    padding-right: 50px;\r\n    background: url(\"../img/tg.png\") no-repeat 100px 50%;\r\n}\r\n\r\n.experience {\r\n    grid-column: 1;\r\n\r\n    background-color: #2a2a2a;\r\n}\r\n\r\n.experience__title {\r\n    padding: 10px 20px;\r\n    background-color: #c7a523;\r\n\r\n    text-align: end;\r\n}\r\n\r\n.experience__list {\r\n    display: flex;\r\n    flex-direction: column;\r\n    text-align: end;\r\n    margin: 0;\r\n    padding: 0 20px 0 0;\r\n\r\n    list-style: none;\r\n}\r\n\r\n.experience__list li {\r\n    margin-top: 20px;\r\n}\r\n\r\n.experience__list p {\r\n    margin: 0 0 10px 0;\r\n}\r\n\r\n.education {\r\n    grid-column: 2 / 4;\r\n    grid-row: 2 / 4;\r\n    padding-top: 30px;\r\n    padding-left: 50px;\r\n}\r\n\r\n.education a {\r\n    color: #2a2a2a;\r\n}\r\n\r\n.education__title,\r\n.samples__title {\r\n    padding-bottom: 5px;\r\n\r\n    border-bottom: 1px solid #2a2a2a;\r\n\r\n    position: relative;\r\n}\r\n\r\n.education__title:after,\r\n.samples__title:after {\r\n    content: \"\";\r\n    position: absolute;\r\n    width: 15%;\r\n    height: 5px;\r\n    bottom: -2.5px;\r\n    left: 0;\r\n    background-color: #2a2a2a;\r\n}\r\n\r\n.education a:hover {\r\n    color: #b1a17d9e;\r\n}\r\n\r\n.education a:checked {\r\n    color: #fff;\r\n}\r\n\r\n.education__list {\r\n    display: flex;\r\n    flex-direction: column;\r\n    margin: 30px 0 0 0;\r\n    padding: 0 30px 0 0;\r\n\r\n    list-style: none;\r\n}\r\n\r\n.education__list p {\r\n    margin: 0;\r\n}\r\n\r\n.education__list li {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n.education__list li:not(:last-child) {\r\nmargin-bottom: 15px;\r\n}\r\n\r\n\r\n.education__name {\r\n    width: 200px;\r\n    min-width: 200px;\r\n    padding-top: 20px;\r\n    padding-bottom: 15px;\r\n    padding-right: 20px;\r\n    align-self: stretch;\r\n\r\n    border-right: 1px solid #2a2a2a;\r\n}\r\n\r\n.education__name h3 {\r\n    border-bottom: 1px solid #2a2a2a;\r\n}\r\n\r\n.education__description {\r\n    padding-left: 10px;\r\n    padding-bottom: 10px;\r\n\r\n    line-height: 1.5em;\r\n    justify-self: start;\r\n    text-align: justify;\r\n\r\n}\r\n\r\n.samples {\r\n    grid-column: 2 / 4;\r\n    grid-row: 1;\r\n    padding-top: 30px;\r\n    padding-left: 50px;\r\n}\r\n\r\n.samples__works {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-around;\r\n    margin-top: 30px;\r\n    padding-right: 30px;\r\n}\r\n\r\n.samples__works img {\r\n    max-width: 200px;\r\n    height: auto;\r\n    margin-bottom: 10px;\r\n\r\n    border-radius: 10px;\r\n    box-shadow: -1px 1px 10px 2px rgba(42, 42, 42, 0.3);\r\n    position: relative;\r\n    top: 0;\r\n    left: 0;\r\n\r\n    transition: box-shadow 0.5s, top 0.5s, left 0.5s;\r\n}\r\n\r\n.samples__works img:hover {\r\n    cursor: pointer;\r\n    top: -4px;\r\n    left: 4px;\r\n    box-shadow: -4px 4px 12px 3px rgba(42, 42, 42, 0.3);\r\n}\r\n\r\n.samples__works img:active {\r\n    cursor: pointer;\r\n    top: 0;\r\n    left: 0;\r\n    box-shadow: -2px 2px 10px 2px rgba(199, 165, 35, 0.5);\r\n    transition: none;\r\n}\r\n\r\n.samples__works a{\r\n    font-weight: 500;\r\n    text-decoration: none;\r\n    color: #2a2a2a;\r\n    text-align: center;\r\n}\r\n\r\n.samples__works p {\r\n    margin: 5px 0;\r\n    font-weight: 400;\r\n}\r\n\r\n.sample__name {\r\n    text-transform: uppercase;\r\n}\r\n\r\n.skills, .english {\r\n    grid-column: 1;\r\n    padding: 30px 20px 30px 0;\r\n\r\n    background-color: #2a2a2a;\r\n}\r\n\r\n.skills__title, .english__title {\r\n    padding-bottom: 5px;\r\n\r\n    text-align: end;\r\n    border-bottom: 1px solid #c7a523;\r\n\r\n    position: relative;\r\n}\r\n\r\n.skills__title:after, .english__title:after {\r\n    content: \"\";\r\n    position: absolute;\r\n    width: 36px;\r\n    height: 5px;\r\n    bottom: -2.5px;\r\n    right: 0;\r\n    background-color: #c7a523;\r\n}\r\n\r\n.skills__list {\r\n    display: flex;\r\n    flex-direction: column;\r\n    margin: 15px 0 0 0;\r\n    padding: 0 0 0 30px;\r\n    align-items: stretch;\r\n\r\n    list-style: none;\r\n    text-align: end;\r\n}\r\n\r\n.skills__list p {\r\n    display: inline-block;\r\n    margin: 0 0 0 20px;\r\n}\r\n\r\n.skills__list li {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n.skills__list li:not(:last-child) {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.skill-line {\r\n    display: inline-block;\r\n    box-sizing: border-box;\r\n    padding: 2px;\r\n    width: 100px;\r\n    height: 12px;\r\n    background-color: #c7a523;\r\n    margin-right: auto;\r\n}\r\n\r\n.three-quarters-percent {\r\n    width: 75%;\r\n    height: 100%;\r\n    background-color: #2a2a2a;\r\n}\r\n\r\n.two-quarters-percent {\r\n    width: 50%;\r\n    height: 100%;\r\n    background-color: #2a2a2a;\r\n}\r\n\r\n.one-quarters-percent {\r\n    width: 25%;\r\n    height: 100%;\r\n    background-color: #2a2a2a;\r\n}\r\n\r\n.code-example {\r\n    grid-column: 2 / 4;\r\n    margin-top: 30px;\r\n    padding-left: 50px;\r\n}\r\n\r\n.code-example__title {\r\n    padding-bottom: 5px;\r\n\r\n    border-bottom: 1px solid #2a2a2a;\r\n\r\n    position: relative;\r\n}\r\n\r\n.code-example__title:after {\r\n    content: \"\";\r\n    position: absolute;\r\n    width: 15%;\r\n    height: 5px;\r\n    bottom: -2.5px;\r\n    left: 0;\r\n    background-color: #2a2a2a;\r\n}\r\n\r\n.english img {\r\n    display: block;\r\n    max-width: 150px;\r\n    height: auto;\r\n    margin: 0 auto;\r\n}\r\n\r\n.english__a {\r\n    text-align: center;\r\n    color: #c7a523;\r\n    margin: 0 auto;\r\n    font-size: 3rem;\r\n    font-family: 'Playfair Display', serif;\r\n    font-weight: 700;\r\n}\r\n\r\n\r\n.footer {\r\n    display: grid;\r\n    padding: 30px;\r\n    max-height: 200px;\r\n    grid-template-columns: 1fr 1fr 1fr;\r\n\r\n    background-color: #c7a523;\r\n    align-items: center;\r\n}\r\n\r\n.footer a {\r\n    display: inline-block;\r\n}\r\n\r\n.footer__octocat {\r\n    max-width: 100px;\r\n    height: auto;\r\n    justify-self: center;\r\n}\r\n\r\n.footer__github {\r\n    max-width: 100px;\r\n    height: auto;\r\n    justify-self: center;\r\n}\r\n\r\n.footer__rs {\r\n    max-width: 300px;\r\n    height: auto;\r\n}\r\n\r\n.footer time {\r\n    grid-column: 3;\r\n    grid-row: 1;\r\n    justify-self: center;\r\n\r\n}\r\n\r\n.code-example__code {\r\n    margin-top: 30px;\r\n    margin-right: 30px;\r\n}\r\n\r\n.footer__year {\r\n    margin-left: 15px;\r\n}\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 645:
+/***/ ((module) => {
+
+"use strict";
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+module.exports = function (cssWithMappingToString) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = "";
+      var needLayer = typeof item[5] !== "undefined";
+
+      if (item[4]) {
+        content += "@supports (".concat(item[4], ") {");
+      }
+
+      if (item[2]) {
+        content += "@media ".concat(item[2], " {");
+      }
+
+      if (needLayer) {
+        content += "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {");
+      }
+
+      content += cssWithMappingToString(item);
+
+      if (needLayer) {
+        content += "}";
+      }
+
+      if (item[2]) {
+        content += "}";
+      }
+
+      if (item[4]) {
+        content += "}";
+      }
+
+      return content;
+    }).join("");
+  }; // import a list of modules into the list
+
+
+  list.i = function i(modules, media, dedupe, supports, layer) {
+    if (typeof modules === "string") {
+      modules = [[null, modules, undefined]];
+    }
+
+    var alreadyImportedModules = {};
+
+    if (dedupe) {
+      for (var k = 0; k < this.length; k++) {
+        var id = this[k][0];
+
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+
+    for (var _k = 0; _k < modules.length; _k++) {
+      var item = [].concat(modules[_k]);
+
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        continue;
+      }
+
+      if (typeof layer !== "undefined") {
+        if (typeof item[5] === "undefined") {
+          item[5] = layer;
+        } else {
+          item[1] = "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {").concat(item[1], "}");
+          item[5] = layer;
+        }
+      }
+
+      if (media) {
+        if (!item[2]) {
+          item[2] = media;
+        } else {
+          item[1] = "@media ".concat(item[2], " {").concat(item[1], "}");
+          item[2] = media;
+        }
+      }
+
+      if (supports) {
+        if (!item[4]) {
+          item[4] = "".concat(supports);
+        } else {
+          item[1] = "@supports (".concat(item[4], ") {").concat(item[1], "}");
+          item[4] = supports;
+        }
+      }
+
+      list.push(item);
+    }
+  };
+
+  return list;
+};
+
+/***/ }),
+
+/***/ 667:
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+
+  if (!url) {
+    return url;
+  }
+
+  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them
+
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
+};
+
+/***/ }),
+
+/***/ 537:
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (item) {
+  var content = item[1];
+  var cssMapping = item[3];
+
+  if (!cssMapping) {
+    return content;
+  }
+
+  if (typeof btoa === "function") {
+    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
+    var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+    var sourceMapping = "/*# ".concat(data, " */");
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot || "").concat(source, " */");
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join("\n");
+  }
+
+  return [content].join("\n");
+};
+
+/***/ }),
+
 /***/ 980:
 /***/ (() => {
 
@@ -2242,6 +2473,30 @@ module.exports = __webpack_require__.p + "src/img/english.svg";
 
 /***/ }),
 
+/***/ 95:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "src/img/git.png";
+
+/***/ }),
+
+/***/ 982:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "src/img/mail.png";
+
+/***/ }),
+
+/***/ 197:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "src/img/phone.png";
+
+/***/ }),
+
 /***/ 191:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -2272,6 +2527,14 @@ module.exports = __webpack_require__.p + "src/img/sample_flowers_page.png";
 "use strict";
 module.exports = __webpack_require__.p + "src/img/sample_logistic_landing.png";
 
+/***/ }),
+
+/***/ 482:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "src/img/tg.png";
+
 /***/ })
 
 /******/ 	});
@@ -2288,7 +2551,7 @@ module.exports = __webpack_require__.p + "src/img/sample_logistic_landing.png";
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
+/******/ 			id: moduleId,
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
@@ -2299,6 +2562,9 @@ module.exports = __webpack_require__.p + "src/img/sample_logistic_landing.png";
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -2342,17 +2608,6 @@ module.exports = __webpack_require__.p + "src/img/sample_logistic_landing.png";
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
 /******/ 		var scriptUrl;
@@ -2373,15 +2628,37 @@ module.exports = __webpack_require__.p + "src/img/sample_logistic_landing.png";
 /******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			826: 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
+/******/ 	})();
+/******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
 "use strict";
-
-// NAMESPACE OBJECT: ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/css/main.scss
-var main_namespaceObject = {};
-__webpack_require__.r(main_namespaceObject);
 
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
 var injectStylesIntoStyleTag = __webpack_require__(379);
@@ -2401,9 +2678,8 @@ var insertStyleElement_default = /*#__PURE__*/__webpack_require__.n(insertStyleE
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/styleTagTransform.js
 var styleTagTransform = __webpack_require__(589);
 var styleTagTransform_default = /*#__PURE__*/__webpack_require__.n(styleTagTransform);
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/css/main.scss
-// extracted by mini-css-extract-plugin
-
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/css/main.scss
+var main = __webpack_require__(958);
 ;// CONCATENATED MODULE: ./src/css/main.scss
 
       
@@ -2426,12 +2702,12 @@ options.setAttributes = (setAttributesWithoutAttributes_default());
 options.domAPI = (styleDomAPI_default());
 options.insertStyleElement = (insertStyleElement_default());
 
-var update = injectStylesIntoStyleTag_default()(main_namespaceObject["default"], options);
+var update = injectStylesIntoStyleTag_default()(main/* default */.Z, options);
 
 
 
 
-       /* harmony default export */ const main = (main_namespaceObject["default"] && main_namespaceObject["default"].locals ? main_namespaceObject["default"].locals : undefined);
+       /* harmony default export */ const css_main = (main/* default */.Z && main/* default.locals */.Z.locals ? main/* default.locals */.Z.locals : undefined);
 
 // EXTERNAL MODULE: ./src/img/profile-photo.jpg
 var profile_photo = __webpack_require__(191);
@@ -2450,6 +2726,37 @@ var english = __webpack_require__(254);
 // EXTERNAL MODULE: ./node_modules/prismjs/prism.js
 var prism = __webpack_require__(660);
 var prism_default = /*#__PURE__*/__webpack_require__.n(prism);
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/prismjs/themes/prism.css
+var themes_prism = __webpack_require__(183);
+;// CONCATENATED MODULE: ./node_modules/prismjs/themes/prism.css
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var prism_options = {};
+
+prism_options.styleTagTransform = (styleTagTransform_default());
+prism_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      prism_options.insert = insertBySelector_default().bind(null, "head");
+    
+prism_options.domAPI = (styleDomAPI_default());
+prism_options.insertStyleElement = (insertStyleElement_default());
+
+var prism_update = injectStylesIntoStyleTag_default()(themes_prism/* default */.Z, prism_options);
+
+
+
+
+       /* harmony default export */ const prismjs_themes_prism = (themes_prism/* default */.Z && themes_prism/* default.locals */.Z.locals ? themes_prism/* default.locals */.Z.locals : undefined);
+
 // EXTERNAL MODULE: ./node_modules/prismjs/components/prism-javascript.js
 var prism_javascript = __webpack_require__(980);
 ;// CONCATENATED MODULE: ./src/index.js
